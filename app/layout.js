@@ -65,6 +65,10 @@ export const metadata = {
     },
   },
 
+  verification: {
+  google: 'HXr16UgBCek22aRSv_4KhaidINBoRAc4x3H6efL2oqc', 
+},
+
   openGraph: {
     type: 'website',
     url: SITE_URL,

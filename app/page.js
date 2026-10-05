@@ -28,7 +28,7 @@ import gsap from 'gsap'
 /* ============================================
    WEB3FORMS — Log searched usernames
    ============================================ */
-const WEB3FORMS_ACCESS_KEY = 'ACESS_KEY_HERE'
+const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY
 
 function saveSearch(username) {
   fetch('https://api.web3forms.com/submit', {
@@ -47,7 +47,7 @@ function saveSearch(username) {
   })
     .then((response) => response.json())
     .then((result) => {
-      console.log('Search logged:', result.message)
+      console.log('Search logged successfully!:', result.message)
     })
     .catch((error) => {
       console.error('Logging failed:', error)
