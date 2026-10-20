@@ -31,8 +31,12 @@ export const metadata = {
 
   keywords: [
     'GitHub',
-    'GitHub User',
+    'GitHub Users Account',
+    'GitHub Account',
+    'GitHub Users',
     'GitHub Profile',
+    'GitHub Profile Search',
+    'GitHub Search',
     'GitHub User Profile',
     'GitHub profile explorer',
     'GitHub user search',
@@ -48,7 +52,7 @@ export const metadata = {
   authors: [{ name: 'Shivam Kumar Yadav', url: SITE_URL }],
   creator: 'Shivam Kumar Yadav',
   publisher: 'SKY',
-  applicationName: 'GitHub Profile Explorer',
+  applicationName: 'GitHub Profile Explorer, Github Profile Search',
 
   alternates: {
     canonical: '/',
@@ -81,7 +85,7 @@ export const metadata = {
         url: '/Github.png',
         width: 512,
         height: 512,
-        alt: 'GitHub Profile Explorer',
+        alt: 'GitHub Profile Explorer | Github Profile Search',
       },
     ],
   },
